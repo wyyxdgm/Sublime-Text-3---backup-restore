@@ -1,0 +1,14 @@
+{
+    "all":
+    {
+        "end_with_newline": false,
+
+        "eol": "\n",
+
+        "indent_level": 0,
+
+        "indent_char": " ",
+
+        "indent_size": 2
+    }
+}

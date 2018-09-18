@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"CSS Format",
+		"DocBlockr",
+		"Emmet",
+		"GBK Support",
+		"HTML-CSS-JS Prettify",
+		"JS Snippets",
+		"JsFormat",
+		"MarkdownPreview",
+		"Package Control",
+		"SideBarEnhancements"
+	]
+}

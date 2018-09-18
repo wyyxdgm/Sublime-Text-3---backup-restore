@@ -1,0 +1,487 @@
+{
+	"folder_history":
+	[
+		"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app",
+		"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal",
+		"/Users/guimaodai/Sublime Text 3"
+	],
+	"last_version": 3176,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"align",
+						"Package Control: Install Package"
+					],
+					[
+						"installpa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 136.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/guimaodai/Sublime Text 3/Packages/Autoprefixer/node_modules/postcss/lib/postcss.js",
+				"/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ss.js",
+						"Packages/Autoprefixer/node_modules/postcss/lib/postcss.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 340.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1154.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Searching 137 files for \"reservation.status\"\n\n/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages/reservation_detail/index.js:\n   56  \n   57  \tmapTapped(e) {\n   58: \t\tif (this.data.reservation.status == 2) {\n   59  \t\t\twx.openLocation({\n   60  \t\t\t\tlatitude: this.data.reservation.room.lat,\n   ..\n   86  \t\tlet that = this;\n   87  \t\tlet str = JSON.stringify(that.data.reservation.room);\n   88: \t\tif (that.data.reservation.status == 2) {\n   89  \t\t\twx.openLocation({\n   90  \t\t\t\tlatitude: that.data.reservation.room.lat,\n\n/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages/reservation_detail/index.wxml:\n   26          <view class=\"map-wrapper-view\">\n   27              <text class=\"address-title section-title theme-color-text\">空间位置</text>\n   28:             <text wx:if=\"{{reservation.status == 2 && currentUserStatus != 0}}\" class=\"address regular-text theme-color-text\">{{reservation.room.address}}</text>\n   29              <text wx:else class=\"address regular-text theme-color-text\">{{reservation.room.address_description}}</text>\n   30              <view class=\"relative\">\n\n3 matches across 2 files\n",
+					"settings":
+					{
+						"buffer_size": 1165,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages/reservation_detail/index.wxml",
+					"settings":
+					{
+						"buffer_size": 14879,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"align",
+						"Package Control: Install Package"
+					],
+					[
+						"installpa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 136.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal",
+				"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal/pages",
+				"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app",
+				"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src",
+				"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages"
+			],
+			"file_history":
+			[
+				"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal/app.js",
+				"/Users/guimaodai/Sublime Text 3/Packages/Autoprefixer/node_modules/postcss/lib/postcss.js",
+				"/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 113.0,
+				"where_history":
+				[
+					"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages",
+					"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal/pages",
+					"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages,/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal/pages",
+					"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src",
+					"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal/pages"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"reservation.status",
+					"reservation",
+					"reservatoin"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal"
+				},
+				{
+					"path": "/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1165,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												213,
+												231
+											],
+											[
+												439,
+												457
+											],
+											[
+												834,
+												852
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										849,
+										849
+									]
+								],
+								"settings":
+								{
+									"default_dir": "/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal",
+									"detect_indentation": false,
+									"line_numbers": false,
+									"output_tag": 1,
+									"result_base_dir": "",
+									"result_file_regex": "^([^ \t].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-app/src/pages/reservation_detail/index.wxml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14879,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1889,
+										1889
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 123.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0 -242 900 2048 1129 -242 900 2048 1129 ",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ss.js",
+						"Packages/Autoprefixer/node_modules/postcss/lib/postcss.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 340.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 4,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
