@@ -1,0 +1,4 @@
+*.ldb
+*.log
+*.rcache
+*.sublime_session
