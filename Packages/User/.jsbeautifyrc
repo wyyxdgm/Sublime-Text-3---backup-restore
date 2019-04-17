@@ -1,14 +1,13 @@
 {
-    "all":
-    {
-        "end_with_newline": false,
+	"all": {
+		"end_with_newline": false,
 
-        "eol": "\n",
+		"eol": "\n",
 
-        "indent_level": 0,
+		"indent_level": 0,
 
-        "indent_char": " ",
+		"indent_char": " ",
 
-        "indent_size": 2
-    }
+		"indent_size": 2
+	}
 }

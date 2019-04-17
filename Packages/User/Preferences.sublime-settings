@@ -1,5 +1,27 @@
 {
-	"font_size": 18,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/**",
+		"/Users/guimaodai/workspace/github/qiaqia/build/**",
+		"/Users/guimaodai/workspace/github/qiaqia/build/build/**",
+		"/Users/guimaodai/workspace/github/qiaqia/build/node_modules/**",
+		"build/**",
+		"node_modules/**"
+	],
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Vintage"

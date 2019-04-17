@@ -1,11 +1,11 @@
 {
 	"folder_history":
 	[
-		"/Users/guimaodai/Sublime Text 3",
-		"/Users/guimaodai/Documents/workspace/meetbest/project/meetbest-wechat-cal"
+		"/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages",
+		"/Users/guimaodai/workspace/github/qiaqia/build"
 	],
-	"last_version": 3176,
-	"last_window_id": 2,
+	"last_version": 3207,
+	"last_window_id": 3,
 	"log_indexing": false,
 	"settings":
 	{
@@ -89,6 +89,10 @@
 				"height": 0.0
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -161,19 +165,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"install",
-						"Package Control: Install Package"
-					]
 				],
 				"width": 0.0
 			},
 			"console":
 			{
-				"height": 136.0,
+				"height": 0.0,
 				"history":
 				[
-					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 				]
 			},
 			"distraction_free":
@@ -187,7 +186,9 @@
 			},
 			"expanded_folders":
 			[
-				"/Users/guimaodai/Sublime Text 3"
+				"/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages",
+				"/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages/pygments",
+				"/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages/pyyaml"
 			],
 			"file_history":
 			[
@@ -225,7 +226,7 @@
 			"folders":
 			[
 				{
-					"path": "/Users/guimaodai/Sublime Text 3"
+					"path": "/Users/guimaodai/Library/Application Support/Sublime Text 3/Packages"
 				}
 			],
 			"groups":
@@ -267,12 +268,16 @@
 				]
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0 141 198 1154 502 0 0 1440 877 ",
+			"position": "0 373 198 640 502 0 0 1440 877 ",
 			"project": "",
 			"replace":
 			{
@@ -314,12 +319,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 248.0,
+			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 2,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],

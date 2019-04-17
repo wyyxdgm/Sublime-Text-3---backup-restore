@@ -7,15 +7,25 @@
 	[
 		"Alignment",
 		"AutoFileName",
+		"Babel",
 		"CSS Format",
 		"DocBlockr",
+		"EditorConfig",
 		"Emmet",
+		"ESLint",
+		"ESLint-Formatter",
 		"GBK Support",
 		"HTML-CSS-JS Prettify",
 		"JS Snippets",
 		"JsFormat",
 		"MarkdownPreview",
 		"Package Control",
-		"SideBarEnhancements"
+		"React IDE",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-eslint",
+		"Vue Syntax Highlight",
+		"wxapp"
 	]
 }
